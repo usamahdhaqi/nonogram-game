@@ -1,0 +1,17 @@
+.puzzle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.row-grid-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+
+.result img {
+  margin-top: 20px;
+  border: 4px solid #98A1BC;
+  border-radius: 10px;
+  box-shadow: 0 6px 12px rgba(0,0,0,0.25);
+}

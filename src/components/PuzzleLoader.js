@@ -1,6 +1,8 @@
 import React, { useState } from "react";
 import Grid from "./Grid";
-import "./PuzzleLoader.css";
+import ColHints from "./ColHints";
+import RowHints from "./RowHints";
+import "../styles/PuzzleLoader.css";
 
 export default function PuzzleLoader({ puzzle }) {
   const [completed, setCompleted] = useState(false);
@@ -19,30 +21,9 @@ export default function PuzzleLoader({ puzzle }) {
       <h2>Nonogram Puzzle</h2>
       {!completed ? (
         <div className="puzzle-container">
-          {/* Kolom hints di atas */}
-          <div className="col-hints">
-            {Array.from({ length: puzzle.width }).map((_, c) => (
-              <div key={c} className="col-hint">
-                {getColHints(c).map((num, i) => (
-                  <div key={i}>{num}</div>
-                ))}
-              </div>
-            ))}
-          </div>
-
+          <ColHints puzzle={puzzle} getColHints={getColHints} />
           <div className="row-grid-wrapper">
-            {/* Row hints di kiri */}
-            <div className="row-hints">
-              {puzzle.solution.map((row, i) => (
-                <div key={i} className="row-hint">
-                  {getRowHints(row).map((num, j) => (
-                    <span key={j}>{num}</span>
-                  ))}
-                </div>
-              ))}
-            </div>
-
-            {/* Grid utama */}
+            <RowHints puzzle={puzzle} getRowHints={getRowHints} />
             <Grid puzzle={puzzle} onComplete={() => setCompleted(true)} />
           </div>
         </div>
