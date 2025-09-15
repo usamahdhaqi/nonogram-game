@@ -52,3 +52,45 @@ h2 {
     padding: 6px;
   }
 }
+
+.menu {
+  margin-top: 20px;
+}
+
+.puzzle-list {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.menu-btn {
+  background: #555879;
+  color: #F4EBD3;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 200px;
+}
+.menu-btn:hover {
+  background: #98A1BC;
+  color: #555879;
+}
+
+.back-btn {
+  margin-top: 20px;
+  background: #DED3C4;
+  color: #555879;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.back-btn:hover {
+  background: #555879;
+  color: #F4EBD3;
+}
