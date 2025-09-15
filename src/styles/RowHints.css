@@ -1,7 +1,9 @@
 .row-hints {
   display: flex;
   flex-direction: column;
-  margin-right: 6px;
+  margin-top: 10px;
+  gap: 6px;
+  margin-right: 10px;
 }
 .row-hint {
   height: 30px;
