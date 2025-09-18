@@ -3,7 +3,6 @@
 Selamat datang di **Nonogram Game** 🎉  
 Game puzzle berbasis React JS dengan tampilan modern, minimalis, dan mendukung **multi-level puzzle**.
 
----
 
 ![React Badge](https://img.shields.io/badge/React-18-blue?logo=react) 
 ![License Badge](https://img.shields.io/badge/License-MIT-green)
