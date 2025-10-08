@@ -13,7 +13,7 @@ Game puzzle berbasis React JS dengan tampilan modern, minimalis, dan mendukung *
 
 ## 🚀 Fitur
 - 🎨 Desain modern & minimalis
-- 🐱 Puzzle multi-level (Kucing Orange, Kucing Hitam, Logo Lucu)
+- 🐱 Puzzle multi-level (Kucing Orange, Kucing Hitam, Kucing Putih)
 - 🖼️ Gambar hasil muncul setelah puzzle selesai
 - 🔙 Menu awal untuk memilih puzzle
 - 💡 Hint kolom & baris dengan styling terpisah
@@ -25,11 +25,11 @@ Game puzzle berbasis React JS dengan tampilan modern, minimalis, dan mendukung *
 
 ### Menu Awal
 _(contoh tampilan)_  
-![Menu Screenshot](./screenshots/menu.png)
+![Menu Screenshot](./public/screenshots/screenshot-nonogram-game-menu.PNG)
 
 ### Gameplay
 _(contoh puzzle)_  
-![Puzzle Screenshot](./screenshots/puzzle.png)
+![Puzzle Screenshot](./public/screenshots/screenshot-nonogram-game-puzzle.PNG)
 
 ---
 
