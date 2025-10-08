@@ -18,7 +18,6 @@ export default function PuzzleLoader({ puzzle }) {
 
   return (
     <div>
-      <h2>Nonogram Puzzle</h2>
       {!completed ? (
         <div className="puzzle-container">
           <ColHints puzzle={puzzle} getColHints={getColHints} />

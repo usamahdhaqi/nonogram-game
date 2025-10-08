@@ -82,6 +82,7 @@ h2 {
 
 .back-btn {
   margin-top: 20px;
+  margin-left: 55px;
   background: #DED3C4;
   color: #555879;
   padding: 8px 16px;
@@ -89,8 +90,25 @@ h2 {
   border-radius: 6px;
   cursor: pointer;
   transition: 0.3s;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px; /* jarak antara ikon dan teks */
+  font-weight: 500;
 }
+
 .back-btn:hover {
   background: #555879;
   color: #F4EBD3;
 }
+
+.back-icon {
+  width: 18px;
+  height: 18px;
+  stroke: currentColor; /* biar warnanya mengikuti warna teks */
+  transition: transform 0.2s;
+}
+
+.back-btn:hover .back-icon {
+  transform: translateX(-3px); /* animasi kecil saat hover */
+}
+
