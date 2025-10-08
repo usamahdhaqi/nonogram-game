@@ -3,6 +3,12 @@
 Selamat datang di **Nonogram Game** 🎉  
 Game puzzle berbasis React JS dengan tampilan modern, minimalis, dan mendukung **multi-level puzzle**.
 
+
+![React Badge](https://img.shields.io/badge/React-18-blue?logo=react) 
+![License Badge](https://img.shields.io/badge/License-MIT-green)
+![Status Badge](https://img.shields.io/badge/Status-Active-success)
+![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+
 ---
 
 ## 🚀 Fitur
@@ -30,7 +36,7 @@ _(contoh puzzle)_
 ## 🛠️ Instalasi & Menjalankan
 1. Clone repository ini  
    ```bash
-   git clone https://github.com/username/nonogram-game.git
+   git clone https://github.com/usamahdhaqi/nonogram-game.git
    ```
 
 2. Masuk ke folder project  
@@ -82,7 +88,7 @@ nonogram-game/
 ---
 
 ## 🏆 Credits
-- Dibuat dengan ❤️ oleh **Usamah Dh**  
+- Dibuat dengan ❤️ oleh **usamahdhaqi**  
 - Puzzle & desain gambar dari ilustrasi pribadi 🖼️
 
 ---
@@ -92,7 +98,4 @@ Proyek ini menggunakan lisensi **MIT** – silakan gunakan, modifikasi, dan bagi
 
 ---
 
-![React Badge](https://img.shields.io/badge/React-18-blue?logo=react) 
-![License Badge](https://img.shields.io/badge/License-MIT-green)
-![Status Badge](https://img.shields.io/badge/Status-Active-success)
-![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen)
+
