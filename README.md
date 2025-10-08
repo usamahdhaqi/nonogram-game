@@ -24,11 +24,9 @@ Game puzzle berbasis React JS dengan tampilan modern, minimalis, dan mendukung *
 ## 📸 Screenshot
 
 ### Menu Awal
-_(contoh tampilan)_  
 ![Menu Screenshot](./public/screenshots/screenshot-nonogram-game-menu.PNG)
 
 ### Gameplay
-_(contoh puzzle)_  
 ![Puzzle Screenshot](./public/screenshots/screenshot-nonogram-game-puzzle.PNG)
 
 ---
